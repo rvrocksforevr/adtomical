@@ -7,7 +7,7 @@ $font_light:ubuntulight,sans-serif;
 @mixin title()
 {
 	font-family:'ubuntubold',sans-serif;
-	font-size:4em;;
+	font-size:72px;
 	color:#000;
 }
 
@@ -90,7 +90,7 @@ $font_light:ubuntulight,sans-serif;
 	width:100%;
 	float:right;
 	margin-top:15vh;
-	height:85px;
+	height:85vh;
 }
 
 h2
@@ -110,6 +110,7 @@ h2
 {
 	font-family:$font_regular;	
 	color:$black;
+	font-size:22px;
 		@extend .anchor;
 }
 .pull_left
@@ -181,10 +182,10 @@ body
 
 .header 
 {
-	padding-top: 5vh;
+	padding-top: 30px;
     padding-left: 0px;
     padding-right: 0px;
-    height: 15vh;
+    height: 110px;
     box-sizing: border-box;
     border-bottom:#cccccc solid 1px;
     position:fixed;
@@ -196,9 +197,9 @@ body
 .what_section
 {
 	@extend .main_container;	
-	background:url(../images/what_sction_right.png) no-repeat;
-	background-position:right 10vw bottom;
-	background-size:67vh;
+	background: url(../images/what_sction_right.png) no-repeat;
+    background-position: right 34% bottom;
+    background-size: 48%;
 }
 
 .left_sidebar_section

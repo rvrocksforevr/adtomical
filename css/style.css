@@ -46,7 +46,7 @@
   width: 100%;
   float: right;
   margin-top: 15vh;
-  height: 85px; }
+  height: 85vh; }
 
 h2 {
   margin-top: 0px;
@@ -58,7 +58,8 @@ h2 {
 
 .blog_menu {
   font-family: ubunturegular;
-  color: #000; }
+  color: #000;
+  font-size: 22px; }
 
 .pull_left {
   float: left; }
@@ -108,10 +109,10 @@ body {
   margin: 0px; }
 
 .header {
-  padding-top: 5vh;
+  padding-top: 30px;
   padding-left: 0px;
   padding-right: 0px;
-  height: 15vh;
+  height: 110px;
   box-sizing: border-box;
   border-bottom: #cccccc solid 1px;
   position: fixed;
@@ -121,8 +122,8 @@ body {
 
 .what_section {
   background: url(../images/what_sction_right.png) no-repeat;
-  background-position: right 10vw bottom;
-  background-size: 67vh; }
+  background-position: right 34% bottom;
+  background-size: 48%; }
 
 .left_sidebar_section {
   max-width: 25%;
@@ -201,7 +202,7 @@ body {
 
 .title_main {
   font-family: 'ubuntubold',sans-serif;
-  font-size: 4em;
+  font-size: 72px;
   color: #000;
   max-width: 462px;
   padding-left: 6vw;
@@ -314,4 +315,57 @@ body {
       .newsletter .pull_right ul li a:hover {
         color: #000; }
 
+
+@media(max-width:1400px)
+{
+  .title_main
+  {
+    font-size:45px;
+    padding-left:7vw;
+  }
+  .header
+  {
+    padding-top:20px;
+    height:80px;
+  }
+  .blog_menu {
+    font-family: ubunturegular;
+    color: #000;
+    font-size: 18px;
+}
+.what_section {
+    background: url(../images/what_sction_right.png) no-repeat;
+    background-position: right 41% bottom;
+    background-size: 45%;
+}
+.what_description, .initiate_section .initiate_description
+{
+  font-size:14px;
+  line-height: 18px;
+  max-width:250px;
+  padding-left:4vw;
+}
+.secondary_menu li a,
+.secondary_menu .active
+{
+  font-size:24px;
+}
+
+.secondary_menu .active:before {
+    content: attr(item-number);
+    display: block;
+    position: absolute;
+    left: 0px;
+    color: #dddddd;
+    font-size: 40px;
+    font-family: ubunturegular;
+    top: -16px;
+}
+.how_section .what_description, .how_section .initiate_section .initiate_description, .initiate_section .how_section .initiate_description
+{
+  font-size:14px;
+  line-height: 18px;
+}
+
+}
 /*# sourceMappingURL=style.css.map */
