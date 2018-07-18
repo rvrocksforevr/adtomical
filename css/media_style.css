@@ -1,0 +1,146 @@
+@media(max-width:767px)
+{
+	.left_sidebar_section {
+	    max-width: 100%;
+	    width: 100%;
+	    float: left;
+	    position: fixed;
+	    bottom: 0px;
+	    height: 50px;
+	    background: #fff;
+	    top:auto;
+	    z-index:999;
+	}
+
+	.left_sidebar_container {
+	    position: fixed;
+	    top: auto;
+	    width: 100%;
+	    z-index: 99;
+	}
+	.secondary_menu ul
+	{
+		width: 100%;
+	}
+	.secondary_menu ul li
+	{
+		width:32%;
+		display: inline-block;
+		text-align: center;
+	}
+	.secondary_menu li a, .secondary_menu .active
+	{
+		padding-left: 0px;
+		padding-top:15px;
+	}
+	.secondary_menu .active:before
+	{
+		display:none;
+	}
+	.arrow_down
+	{
+		display: none;
+	}
+
+	.main_container, .what_section, .how_section, .initiate_section
+	{
+		max-width: 100%;
+		margin-top:50px;
+		height:calc(100vh - 100px);
+	}
+	.menu_left
+	{
+		max-width: 180px;
+	}
+	.menu_left a
+	{
+		display: block;
+	}
+	.menu_left a img
+	{
+		max-width:100%;
+		width:100%;
+	}
+	.header {
+    padding-top: 20px;
+    height: 60px;
+}
+
+.title_main {
+    font-size: 22px;
+    padding-left: 15px;
+    padding-top: 30px;
+    max-width: 40%;
+    font-family: 'ubunturegular';
+}
+
+.what_description, .initiate_section .initiate_description {
+    font-size: 12px;
+    line-height: 17px;
+    max-width: 250px;
+    padding-left: 15px;
+}
+.what_section
+{
+	background-position: center bottom;
+}
+
+.how_section .what_description, .how_section .initiate_section .initiate_description, .initiate_section .how_section .initiate_description
+{
+	padding-top:15px;
+}
+
+.how_section .pull_right ul {
+    list-style: none;
+    font-family: ubunturegular;
+    font-size: 14px;
+    line-height: 22px;
+    padding-left:0px;
+}
+.how_section .pull_right {
+    float: left;
+    margin-left: 0vw;
+    margin-top: 0vh;
+    margin-right:auto;
+    padding-left:15px;
+}
+.how_section {
+    background: url(../images/certificate.png);
+    background-size: 120px;
+    background-position: bottom 10vh right 14vw;
+    background-repeat: no-repeat;
+    height:auto;
+
+}
+
+.initiate_section .pull_right textarea {
+    padding: 5px;
+    height: 50px;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: ubunturegular;
+    border: #000 solid 1px;
+}
+
+.initiate_section {
+    background: url(../images/contact_us.png);
+    background-repeat: no-repeat;
+    background-position: center bottom 90px;
+    background-size: 27vh;
+    position: relative;
+}
+
+.newsletter
+{
+	display: none;
+}
+.initiate_section .pull_right {
+    max-width: 300px;
+    margin-right: auto;
+    width: 100%;
+    margin: auto;
+    float: none;
+}
+
+}

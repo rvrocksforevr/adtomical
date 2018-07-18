@@ -45,7 +45,7 @@
   max-width: 75%;
   width: 100%;
   float: right;
-  margin-top: 15vh;
+  margin-top: 80px;
   height: 85vh; }
 
 h2 {
@@ -130,7 +130,7 @@ body {
   width: 100%;
   float: left;
   position: fixed;
-  top: 15vh;
+  top: 80px;
   height: 85vh; }
   .left_sidebar_section:after {
     position: absolute;
@@ -184,7 +184,7 @@ body {
   display: block;
   top: 0px;
   right: -7px;
-  bottom: 30vh;
+  bottom: 15vh;
   margin: auto; }
 .left_sidebar_container:after {
   content: "";
@@ -197,7 +197,7 @@ body {
   display: block;
   top: 0px;
   right: -0px;
-  bottom: 15vh;
+  bottom: 0px;
   margin: auto; }
 
 .title_main {
@@ -239,8 +239,8 @@ body {
 .initiate_section {
   background: url(../images/contact_us.png);
   background-repeat: no-repeat;
-  background-position: left 10vw bottom;
-  background-size: 45vh; }
+  background-position: left 10vw bottom 90px;
+  background-size: 45vh; position: relative;}
   .initiate_section .title_main {
     max-width: 350px; }
   .initiate_section .initiate_description {
@@ -282,16 +282,17 @@ body {
       float: right; }
 
 .newsletter {
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  max-width: 100%;
-  background: #fff; }
+    position: absolute;
+    bottom: 0px;
+    left: -34%;
+    width: 134%;
+    max-width: 134%;
+    background: #fff;height:80px;padding-bottom: 10px; }
   .newsletter .pull_left {
     max-width: 100px;
     width: 100%; }
     .newsletter .pull_left img {
-      width: 100%; }
+      width: 100%; max-width:100%;}
   .newsletter .center {
     display: inline-block;
     text-align: center;
@@ -314,6 +315,41 @@ body {
       font-family: ubunturegular; }
       .newsletter .pull_right ul li a:hover {
         color: #000; }
+.newsletter .pull_right
+{
+  margin-right:0px;
+  max-width: 190px;
+  width:100%;
+}
+
+
+.secondary_menu ul
+{
+  padding-left:0px;
+  width:50%;
+  margin:auto;
+}
+
+.arrow_down 
+{
+  display: block;
+    margin: auto;
+    width: 25px;
+    margin-top:15px;
+      transform: rotate(00deg);
+  transition: ease-in 0.3s;
+
+}
+
+.arrow_down.slide
+{
+  transform: rotate(-90deg);
+  transition: ease-in 0.3s;
+}
+.arrow_down img
+{
+  max-width:100%;
+}
 
 
 @media(max-width:1400px)
@@ -348,7 +384,7 @@ body {
 .secondary_menu li a,
 .secondary_menu .active
 {
-  font-size:24px;
+  font-size:20px;
 }
 
 .secondary_menu .active:before {

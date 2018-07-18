@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale:1.0;maximu-scale:1.0">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media_style.css">
 </head>
 <body>
 	<header class="header sticky_header" id="header">
@@ -27,16 +28,17 @@
 	</header>
 	<section class="left_sidebar_section">
 		<div class="left_sidebar_container">
-			<div class="secondary_menu">
+			<div class="secondary_menu" id="secondary_menu">
 				<ul>
-					<li><a href="#what_section" item-number="01" class="active">What</a></li>
-					<li><a href="#how_section" item-number="02">How</a></li>
-					<li><a href="#initiate_section" item-number="03">Initiate</a></li>
+					<li data-menuanchor="what_section"><a href="#what_section" item-number="01" class="section active">What</a></li>
+					<li data-menuanchor="how_section"><a href="#how_section" item-number="02" class="section">How</a></li>
+					<li data-menuanchor="initiate_section"><a href="#initiate_section" item-number="03" class="section">Initiate</a></li>
 				</ul>
 			</div>
+			<a class="arrow_down "><img src="images/arrow.png" alt=""></a>
 		</div>
 	</section>
-	<section class="scroll_check what_section " id="what_section" >
+	<section class="scroll_check what_section active" id="what_section" data-scroll="#how_section">
 		<div class="what_container">
 			<h2 class="title_main">Consumer experience transformation.</h2>
 			<div class="what_description">
@@ -45,7 +47,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="scroll_check how_section" id="how_section"  >
+	<section class="scroll_check how_section" id="how_section"  data-scroll="#initiate_section" >
 		<div class="how_container">
 			<h2 class="title_main">Technology led creativity.</h2>
 			<div class="what_description">
@@ -83,23 +85,23 @@
 				</form>
 			</div>
 		</div>
+		<div class="newsletter">
+			<div class="pull_left">
+				<img src="images/footer_logo.png" alt="Footer Logo" />
+			</div>
+			<div class="center">
+				<img src="images/bottom_center.png" alt="Center Logo" />
+			</div>
+			<div class="pull_right">
+				<ul>
+					<li><a href="tel:+6567665432">+65 67665432</a></li>
+					<li><a href="mailto:sayhi@adtomica.co">sayhi@adtomica.co</a></li>
+				</ul>
+			</div>
 
+		</div>
 	</section>
-	<section class="newsletter">
-		<div class="pull_left">
-			<img src="images/footer_logo.png" alt="Footer Logo" />
-		</div>
-		<div class="center">
-			<img src="images/bottom_center.png" alt="Center Logo" />
-		</div>
-		<div class="pull_right">
-			<ul>
-				<li><a href="tel:+6567665432">+65 67665432</a></li>
-				<li><a href="mailto:sayhi@adtomica.co">sayhi@adtomica.co</a></li>
-			</ul>
-		</div>
-
-	</section>
+	
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/scrollify.js"></script>
