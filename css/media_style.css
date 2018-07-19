@@ -63,22 +63,23 @@
 	}
 	.header {
     padding-top: 20px;
-    height: 60px;
+    height: 65px;
 }
 
 .title_main {
     font-size: 22px;
     padding-left: 15px;
     padding-top: 30px;
-    max-width: 40%;
+    max-width: 49%;
     font-family: 'ubunturegular';
 }
 
 .what_description, .initiate_section .initiate_description {
     font-size: 12px;
     line-height: 17px;
-    max-width: 250px;
+    max-width: 100%;
     padding-left: 15px;
+    margin-top:15px;
 }
 .what_section
 {
@@ -141,6 +142,122 @@
     width: 100%;
     margin: auto;
     float: none;
+}
+.menu_left img
+{
+	max-width:100%;
+	width:100%;
+}
+
+.navbar-inverse .navbar-toggle {
+    margin-top: 0px;
+    position: absolute;
+    top: 14px;
+    right: 0px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+#myNavbar
+{
+	    background: #fff;
+    height: 100vh;
+}
+.navbar-header
+{
+	height:43px;
+}
+
+.navbar-inverse .navbar-toggle:hover .icon-bar,
+.navbar-inverse .navbar-toggle:focus .icon-bar
+{
+	background-color: transparent;
+}
+
+.hide_desktop
+{
+	display: block;
+}
+.menu_right
+{
+	max-width: 100%;
+	text-align: center;
+}
+.social_icons {
+    display: block;
+    margin-top:30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.social_icons ul
+{
+	padding-left: 0px;
+	padding-right: 0px
+}
+
+.hide_desktop ul
+{
+	padding-left: 0px;
+	list-style: none;
+}
+.hide_desktop ul a
+{
+	color:#9e9e9e;
+}
+
+.navbar-inverse .navbar-toggle,
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover
+{
+	border-color:transparent;
+	background-color: transparent;
+	height:40px;
+}
+.navbar-inverse .navbar-toggle:hover .icon-bar, .navbar-inverse .navbar-toggle:focus .icon-bar
+{
+	background-color: #3f3f3f;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar:first-child
+{
+	transform: rotate(45deg);
+	transition: ease-in 0.3s; 
+	margin-bottom: 2px;
+}
+.navbar-inverse .navbar-toggle .icon-bar:last-child
+{
+	transform: rotate(-45deg);
+	transition: ease-in 0.3s;
+	margin-top: -4px;
+}
+.navbar-inverse .navbar-toggle .icon-bar:nth-child(2)
+{
+	display: none;
+}
+
+.navbar-inverse .navbar-toggle.collapsed .icon-bar,
+.navbar-inverse .navbar-toggle.collapsed .icon-bar
+{
+	transform: rotate(0deg);
+	transition: ease-in 0.3s;
+	display:block;
+	margin-top:5px;
+	margin-bottom: 5px;
+}
+.left_sidebar_container:before,
+.left_sidebar_container:after
+{
+	display: none;
+}
+.secondary_menu li a, .secondary_menu .active {
+    font-size: 18px;
+}
+.initiate_section {
+    background: url(../images/contact_us.png);
+    background-repeat: no-repeat;
+    background-position: center bottom 50px;
+    background-size: 26vh;
+    position: relative;
 }
 
 }

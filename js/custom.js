@@ -41,9 +41,19 @@ $(document).ready(function(e){
         	$(".secondary_menu li a").removeClass("active");
         	$(this).addClass("active");
         	//$.scrollify.enable();
-        	$("html,body").animate({
-        		scrollTop:$(id_value).offset().top-80	
-        	},400)
+            if($(window).width()>767)
+            {
+                $("html,body").animate({
+                    scrollTop:$(id_value).offset().top-80   
+                },400)    
+            }
+            else
+            {
+                $("html,body").animate({
+                    scrollTop:$(id_value).offset().top-50   
+                },400)       
+            }
+        	
         })
 
         $(".secondary_menu li:last-child a").click(function(){
