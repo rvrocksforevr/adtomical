@@ -17,10 +17,12 @@
 	    top: auto;
 	    width: 100%;
 	    z-index: 99;
+	    border-top:1px solid #cecece;
 	}
 	.secondary_menu ul
 	{
 		width: 100%;
+		border-top:;
 	}
 	.secondary_menu ul li
 	{
@@ -31,7 +33,7 @@
 	.secondary_menu li a, .secondary_menu .active
 	{
 		padding-left: 0px;
-		padding-top:15px;
+		padding-top:7px;
 	}
 	.secondary_menu .active:before
 	{
@@ -67,35 +69,37 @@
 }
 
 .title_main {
-    font-size: 22px;
+    font-size: 20px;
     padding-left: 15px;
-    padding-top: 30px;
+    padding-top: 0px;
     max-width: 49%;
     font-family: 'ubunturegular';
 }
 
 .what_description, .initiate_section .initiate_description {
-    font-size: 12px;
-    line-height: 17px;
+    font-size: 11px;
+    line-height: 16px;
     max-width: 100%;
     padding-left: 15px;
     margin-top:15px;
 }
 .what_section
 {
-	background-position: center bottom;
+	background-position: center bottom 60px;
 }
 
 .how_section .what_description, .how_section .initiate_section .initiate_description, .initiate_section .how_section .initiate_description
 {
-	padding-top:15px;
+	padding-top:0px;
+	font-size: 11px;
+    line-height: 15px;
 }
 
 .how_section .pull_right ul {
     list-style: none;
     font-family: ubunturegular;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 12px;
+    line-height: 19px;
     padding-left:0px;
 }
 .how_section .pull_right {
@@ -108,7 +112,7 @@
 .how_section {
     background: url(../images/certificate.png);
     background-size: 120px;
-    background-position: bottom 10vh right 14vw;
+    background-position: bottom 20vh right 14vw;
     background-repeat: no-repeat;
     height:auto;
 
@@ -152,7 +156,7 @@
 .navbar-inverse .navbar-toggle {
     margin-top: 0px;
     position: absolute;
-    top: 14px;
+    top: 9px;
     right: 0px;
 }
 
@@ -259,5 +263,8 @@
     background-size: 26vh;
     position: relative;
 }
-
+#header .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 }
