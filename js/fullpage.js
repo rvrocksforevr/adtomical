@@ -919,7 +919,7 @@
                     link = options.anchors[i];
                 }
 
-                li += '<li><a href="#' + link + '"><span></span></a>';
+                li += '<li class="value_'+i+'"><a href="#' + link + '"><span></span></a>';
 
                 // Only add tooltip if needed (defined by user)
                 var tooltip = options.navigationTooltips[i];
@@ -939,6 +939,7 @@
 
             var bullet = $('li', $(SECTION_NAV_SEL)[0])[index($(SECTION_ACTIVE_SEL)[0], SECTION_SEL)];
             addClass($('a', bullet), ACTIVE);
+            addClass($('li', bullet), ACTIVE);
         }
 
         /*

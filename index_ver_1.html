@@ -44,11 +44,6 @@
 		</nav>
 
 	</header>
-	<ul id="menu">
-		<li data-menuanchor="firstPage"><a href="#firstPage">First slide</a></li>
-		<li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
-		<li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
-	</ul>
 	<section class="left_sidebar_section">
 		<div class="left_sidebar_container">
 			<div class="secondary_menu" id="secondary_menu">
@@ -68,7 +63,7 @@
 		</div>
 	</section>
 <div id="fullpage">
-	<div class="what_section section" id="what_section" >
+	<section class="what_section section" id="what_section" >
 		<div class="what_container">
 			<h2 class="title_main">Consumer experience transformation.</h2>
 			<div class="what_description">
@@ -76,8 +71,8 @@
 				<p>Connect with us to know how we’ve made an impact with brands like Netflix, Under Armour, Levis, Ducati, Lenovo, Nike and Intel around the globe.</p>
 			</div>
 		</div>
-	</div>
-	<div class="how_section section" id="how_section"  >
+	</section>
+	<section class="how_section section" id="how_section"  >
 		<div class="how_container">
 			<h2 class="title_main">Technology led creativity.</h2>
 			<div class="what_description">
@@ -98,8 +93,8 @@
 				</ul>
 			</div>
 		</div>
-	</div>
-	<div class="initiate_section section" id="initiate_section">
+	</section>
+	<section class="initiate_section section" id="initiate_section">
 		<div class="initiate_container">
 			<h2 class="title_main">Coffee's on us.</h2>
 			<div class="initiate_description">
@@ -130,7 +125,7 @@
 			</div>
 
 		</div>
-	</div>
+	</section>
 </div>
 
 	<script src="js/jquery.min.js"></script>
@@ -138,7 +133,7 @@
 	<script src="js/fullpage.js"></script>
 	<script src="js/custom.js"></script>
 
-	<!--<script type="text/javascript">
+	<script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
         /*sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],*/
         //anchors: ['firstPage', 'secondPage', '3rdPage'],
@@ -154,19 +149,6 @@
         //equivalent to jQuery `easeOutBack` extracted from http://matthewlein.com/ceaser/
         //easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)'
     });
-</script>-->
-<script>
-	var myFullpage = new fullpage('#fullpage', {
-        //sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
-        anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-        menu: '#menu',
-        navigation: true,
-        navigationPosition: 'left',
-        navigationTooltips: ['What', 'How', 'Initiate'],
-        //equivalent to jQuery `easeOutBack` extracted from http://matthewlein.com/ceaser/
-        easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)'
-    });
-
 </script>
 </body>
 </html>

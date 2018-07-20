@@ -77,11 +77,11 @@
 }
 
 .what_description, .initiate_section .initiate_description {
-    font-size: 11px;
-    line-height: 16px;
-    max-width: 100%;
+    font-size: 3vh;
+    line-height: 3.5vh;
+    max-width: 86%;
     padding-left: 15px;
-    margin-top:15px;
+    margin-top: 15px;
 }
 .what_section
 {
@@ -91,16 +91,16 @@
 .how_section .what_description, .how_section .initiate_section .initiate_description, .initiate_section .how_section .initiate_description
 {
 	padding-top:0px;
-	font-size: 11px;
-    line-height: 15px;
+	font-size: 14px;
+    line-height: 16px;
 }
 
 .how_section .pull_right ul {
     list-style: none;
     font-family: ubunturegular;
-    font-size: 12px;
-    line-height: 19px;
-    padding-left:0px;
+    font-size: 2.3vh;
+    line-height: 3.4vh;
+    padding-left: 0px;
 }
 .how_section .pull_right {
     float: left;
@@ -267,4 +267,65 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
+#fp-nav
+{
+	position: fixed;
+	bottom:0px;
+	height:50px;
+	width:100%;
+	left:0px;
+	top:auto;
+}
+
+#fp-nav ul
+{
+	padding-left:0px;
+}
+#fp-nav ul li
+{
+	max-width:33.3%;
+	width:100%;
+	float:left;
+	text-align: center;
+	margin-bottom: 0px;
+	height:50px;
+}
+.fp-left li a span:first-child
+{
+	display:none;
+}
+#fp-nav ul li a
+{
+	width:100%;
+}
+
+.fp-left li a span.tooltip_data
+{
+	text-align: center;
+	display: block;
+	position: relative;
+	left:0px;
+	height:50px;
+	line-height: 50px;
+}
+.fp-left li a
+{
+	height:50px;
+	display: block;
+	line-height: 30px;	
+}
+.fp-left li a.active span:first-child
+{
+	display: none;
+}
+
+
+.how_section .how_container .what_description {
+        max-width: 270px;
+    font-size: 2.7vh;
+    line-height: 3.6vh;
+}
+
+
 }
