@@ -1,6 +1,6 @@
 $(document).ready(function(e){
 	
-    /*var counter = 1;
+    var counter = 1;
 	$(".fp-left ul li").each(function(key,index){
         $(".fp-left ul li:nth-child("+[key+1]+") a span").append("0"+counter);
         counter++;
@@ -10,8 +10,8 @@ $(document).ready(function(e){
 
         $(".fp-left ul li:nth-child("+[key+1]+") a").append("<span class='tooltip_data'>"+tooltip+"</span>");
 
-        return;
-    })*/
+       // return;
+    })
 
 		
           /*$.scrollify({
