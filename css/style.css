@@ -840,5 +840,20 @@ body {
   color:#8d8d8d;
   font-size:17px;
 }
+.menu_right .center .country:first-child
+{
+  margin-left:-42px;
+  margin-right:7px;
+}
+.menu_right .center .country:last-child
+{
+  margin-left:9px;
+  margin-right:0px;
+}
+.menu_right .center img
+{
+  max-width:30px;
+  width:100%;
+}
 
     /*Collapse ends here*/
