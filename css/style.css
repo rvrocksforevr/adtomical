@@ -105,9 +105,11 @@ h2 {
 }
 
 .menu_left {
-    max-width: 150px;
+max-width: 190px;
     width: 100%;
     margin: auto;
+    height: 40px;
+    line-height: 40px;
 }
 
 .menu_right {
