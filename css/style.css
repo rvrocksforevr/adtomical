@@ -830,4 +830,15 @@ body {
   max-width:100%;
   width:100%;
 }
+
+.menu_right .center
+{
+  margin-top:20px;
+}
+.menu_right .center .country
+{
+  color:#8d8d8d;
+  font-size:17px;
+}
+
     /*Collapse ends here*/
