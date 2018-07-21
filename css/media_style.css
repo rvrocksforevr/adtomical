@@ -292,6 +292,7 @@
 	width:100%;
 	left:0px;
 	top:auto;
+	z-index:999;
 }
 
 #fp-nav ul
