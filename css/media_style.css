@@ -69,16 +69,16 @@
 }
 
 .title_main {
-    font-size: 20px;
+    font-size: 4vh;
     padding-left: 15px;
     padding-top: 0px;
-    max-width: 49%;
+    max-width: 60vw;
     font-family: 'ubunturegular';
 }
 
 .what_description, .initiate_section .initiate_description {
-    font-size: 3vh;
-    line-height: 3.5vh;
+    font-size: 2.2vh;
+    line-height: 3vh;
     max-width: 86%;
     padding-left: 15px;
     margin-top: 15px;
@@ -112,7 +112,7 @@
 .how_section {
     background: url(../images/certificate.png);
     background-size: 120px;
-    background-position: bottom 20vh right 14vw;
+    background-position: bottom 34vh right 14vw;
     background-repeat: no-repeat;
     height:auto;
 
@@ -259,7 +259,7 @@
 .initiate_section {
     background: url(../images/contact_us.png);
     background-repeat: no-repeat;
-    background-position: center bottom 50px;
+    background-position: center bottom 119px;
     background-size: 26vh;
     position: relative;
 }
@@ -322,10 +322,38 @@
 
 
 .how_section .how_container .what_description {
-        max-width: 270px;
-    font-size: 2.7vh;
-    line-height: 3.6vh;
+    max-width: 80%;
+    font-size: 2.4vh;
+    line-height: 3vh;
+}
+
+.what_section
+{
+	background-position: left 10vh bottom 119px;
+}
+.how_section .pull_right
+{
+	padding-left:10px;
+}
+.how_section .pull_right ul li
+{
+	font-size:2.8vh;
+	line-height: 4vh;
+}
+
+.initiate_section .title_main
+{
+	padding-top: 5vh;
 }
 
 
 }
+
+
+
+@media(max-width:460px)
+{
+
+}
+
+

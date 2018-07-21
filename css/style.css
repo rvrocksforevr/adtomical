@@ -144,7 +144,7 @@ h2 {
     line-height: 25px;
     text-align: center;
     border-radius: 50%;
-    background: #000;
+    background: transparent;
     color: #fff;
 }
 
@@ -240,7 +240,7 @@ body {
     display: block;
     top: 0px;
     right: -7px;
-    bottom: 15vh;
+    bottom: 0vh;
     margin: auto;
 }
 
@@ -255,7 +255,7 @@ body {
     display: block;
     top: 0px;
     right: -0px;
-    bottom: 0px;
+    bottom: -15vh;
     margin: auto;
 }
 
@@ -271,15 +271,19 @@ body {
 .what_description,
 .initiate_section .initiate_description {
     font-family: ubuntulight, sans-serif;
-    font-size: 1em;
-    padding-left: 2vw;
-    max-width: 350px;
-
+    
+/*
     font-size: 16px;
     line-height: 20px;
     max-width:330px;
     padding-left:3vw;
     margin-top:30px;
+    */
+    font-size: 1.9vh;
+    line-height: 2.4vh;
+    max-width: 38vh;
+    padding-left: 3vw;
+    margin-top: 6vh;
 }
 
 .how_section {
@@ -304,7 +308,7 @@ body {
 .how_section .pull_right {
     float: right;
     margin-right: 15vw;
-    margin-top: -10vh;
+    margin-top: 10vh;
 }
 
 .how_section .pull_right ul {
@@ -317,8 +321,8 @@ body {
 .initiate_section {
     background: url(../images/contact_us.png);
     background-repeat: no-repeat;
-    background-position: left 10vw bottom 148px;
-    background-size: 45vh;
+    background-position: left 15vw bottom 148px;
+    background-size: 38vh;
     position: relative;
     border-bottom: 1px solid #cecece;
 }
@@ -341,6 +345,7 @@ body {
 .initiate_section .pull_right {
     width: 300px;
     margin-right: 15vw;
+    margin-top:-10vh;
 }
 
 .initiate_section .pull_right input {
@@ -352,6 +357,7 @@ body {
     font-family: ubunturegular;
     border: 0px;
     border-bottom: #000 solid 1px;
+    outline: none;
 }
 
 .initiate_section .pull_right textarea {
@@ -362,6 +368,7 @@ body {
     box-sizing: border-box;
     font-family: ubunturegular;
     border: #000 solid 1px;
+    outline: none;
 }
 
 .initiate_section .pull_right input[type="submit"] {
@@ -423,6 +430,7 @@ body {
 .newsletter .pull_right ul li a {
     color: #8d8d8d;
     text-decoration: none;
+    font-size:18px;
     font-family: ubunturegular;
 }
 
@@ -432,9 +440,9 @@ body {
 
 .newsletter .pull_right {
     margin-right: 0px;
-    max-width: 190px;
+    max-width: 260px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 13px;
 }
 
 #initiate_section.active .newsletter .center img {
@@ -452,7 +460,7 @@ body {
     display: block;
     margin: auto;
     width: 25px;
-    margin-top: 15px;
+    margin-top: 40px;
     transform: rotate(00deg);
     transition: ease-in 0.3s;
 }
@@ -532,11 +540,12 @@ body {
     font-size: 18px;
     padding-right: 20px;
     padding-left: 20px;
+    font-family: 'ubunturegular';
 }
 
-@media(max-width:1400px) {
+@media(max-width:1450px) {
     .title_main {
-        font-size: 45px;
+        font-size: 7.2vh;
         padding-left: 7vw;
     }
     .header {
@@ -557,7 +566,7 @@ body {
     .initiate_section .initiate_description {
         font-size: 16px;
         line-height: 20px;
-        max-width:330px;
+        max-width:320px;
         padding-left:3vw;
         margin-top:30px;
     }
@@ -587,8 +596,8 @@ body {
 .fp-left
 {
     position: fixed;
-    top: 45vh;
-    width: 15%;
+    top: 58vh;
+    width: 22vh;
     left:10vh;
     z-index: 9999;
 }
@@ -596,22 +605,22 @@ body {
 {
   list-style: none;
   position: relative;
-  margin-bottom:15px;
+  margin-bottom:1vh;
 }
 .fp-left li a
 {
   display:block;
-  width:80%;
-  height:30px;
-
+  width:100%;
+  height:5vh;
+  margin:auto;
 }
 .fp-left li a span.tooltip_data
 {
     position: absolute;
     top: 0px;
-    left: 60px;
+    left: 7vh;
       font-family: ubunturegular;
-    font-size: 20px;
+    font-size: 2.7vh;
     color: #000000;
     display: block;
     text-decoration: none;
@@ -634,9 +643,9 @@ body {
     position: absolute;
     left: 0px;
     color: #dddddd;
-    font-size: 40px;
+    font-size: 4.6vh;
     font-family: ubunturegular;
-    top: -16px;
+    top: -2vh;
     display:none;
   }
 .fp-left li a.active span:first-child
@@ -652,13 +661,18 @@ body {
 
 .how_section .how_container .what_description
 {
-  max-width:270px;
+  max-width:285px;
   font-size:16px;
   line-height: 20px;
 }
 
 .initiate_section .title_main
 {
-  padding-top:15px;
+  padding-top:90px;
+}
+
+.fp-left ul
+{
+  padding-left:0px;
 }
 /*# sourceMappingURL=style.css.map */
