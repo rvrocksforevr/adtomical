@@ -178,7 +178,7 @@ body {
     float: left;
     position: fixed;
     top: 80px;
-    height: 85vh;
+    height: 87.5vh;
 }
 
 .left_sidebar_section:after {
@@ -233,13 +233,13 @@ body {
     content: "";
     position: absolute;
     right: 0px;
-    width: 15px;
-    height: 15px;
+    width: 1.5vh;
+    height: 1.5vh;
     border-radius: 50%;
     background: #000;
     display: block;
     top: 0px;
-    right: -7px;
+    right: -5px;
     bottom: 0vh;
     margin: auto;
 }
@@ -249,21 +249,21 @@ body {
     position: absolute;
     right: 0px;
     width: 1px;
-    height: 10vh;
+    height: 8vh;
     border-radius: 50%;
     background: #000;
     display: block;
     top: 0px;
     right: -0px;
-    bottom: -15vh;
+    bottom: -12vh;
     margin: auto;
 }
 
 .title_main {
     font-family: 'ubuntubold', sans-serif;
-    font-size: 72px;
+    font-size: 7.2vh;
     color: #000;
-    max-width: 462px;
+    max-width: 35vw;
     padding-left: 6vw;
     padding-top: 10vh;
 }
@@ -321,7 +321,7 @@ body {
 .initiate_section {
     background: url(../images/contact_us.png);
     background-repeat: no-repeat;
-    background-position: left 15vw bottom 148px;
+    background-position: left 15vw bottom 69px;
     background-size: 38vh;
     position: relative;
     border-bottom: 1px solid #cecece;
@@ -393,6 +393,7 @@ body {
     height: 80px;
     padding-bottom: 10px;
     border-top: 1px solid #cecece;
+    display:none;
 }
 
 .newsletter .pull_left {
@@ -599,7 +600,7 @@ body {
     top: 58vh;
     width: 22vh;
     left:10vh;
-    z-index: 9999;
+    z-index: 99;
 }
 .fp-left li
 {
@@ -676,3 +677,155 @@ body {
   padding-left:0px;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+
+    /*Collapse Starts here*/
+.navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-inverse .navbar-toggle
+    {
+      border:0px;
+    }
+
+.navbar-inverse .navbar-toggle {
+    margin-top: 0px;
+    position: absolute;
+    top: 9px;
+    right: 0px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+#myNavbar
+{
+      background: #fff;
+    height: 100vh !important;
+
+}
+
+.navbar-collapse.collapse.in
+{
+  display: block !important;
+}
+
+.menu_right
+{
+  height:100vh;
+  max-width: 100%;
+  margin:0px;
+  text-align: center;
+  margin-top:15px;
+  margin-bottom: 15px;
+
+}
+.menu_right .blog_menu
+{
+  display: inline-block;
+  text-align: center
+}
+
+.menu_right .social_icons
+{
+  display: block;
+  text-align: center;
+  margin-top:15px;
+  margin-bottom: 15px;
+
+
+}
+
+
+
+.navbar-header
+{
+  height:43px;
+}
+
+.navbar-inverse .navbar-toggle:hover .icon-bar,
+.navbar-inverse .navbar-toggle:focus .icon-bar
+{
+  background-color: transparent;
+}
+.navbar-inverse .navbar-toggle,
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover
+{
+  border-color:transparent;
+  background-color: transparent;
+  height:40px;
+}
+.navbar-inverse .navbar-toggle:hover .icon-bar, .navbar-inverse .navbar-toggle:focus .icon-bar
+{
+  background-color: #3f3f3f;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar:first-child
+{
+  transform: rotate(45deg);
+  transition: ease-in 0.3s; 
+  margin-bottom: 2px;
+}
+.navbar-inverse .navbar-toggle .icon-bar:last-child
+{
+  transform: rotate(-45deg);
+  transition: ease-in 0.3s;
+  margin-top: -4px;
+}
+.navbar-inverse .navbar-toggle .icon-bar:nth-child(2)
+{
+  display: none;
+}
+
+.navbar-inverse .navbar-toggle.collapsed .icon-bar,
+.navbar-inverse .navbar-toggle.collapsed .icon-bar
+{
+  transform: rotate(0deg);
+  transition: ease-in 0.3s;
+  display:block;
+  margin-top:5px;
+  margin-bottom: 5px;
+}
+.footer_icon_list ul,
+.social_icons ul
+{
+  padding-left:0px;
+  padding-right:0px;
+  list-style: none;
+}
+
+.footer_icon_list ul a
+{
+      font-size: 16px;
+    color: #8d8d8d;
+    font-family: 'ubunturegular';
+}
+
+.pull_left img
+{
+  max-width:100%;
+  width:100%;
+}
+    /*Collapse ends here*/
