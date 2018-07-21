@@ -616,6 +616,7 @@ body {
   width:100%;
   height:5vh;
   margin:auto;
+  text-decoration: none;
 }
 .fp-left li a span.tooltip_data
 {

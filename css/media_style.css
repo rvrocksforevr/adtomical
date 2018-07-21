@@ -315,6 +315,7 @@
 #fp-nav ul li a
 {
 	width:100%;
+	text-decoration: none;
 }
 
 .fp-left li a span.tooltip_data
