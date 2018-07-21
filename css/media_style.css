@@ -363,6 +363,16 @@
 	padding-top: 5vh;
 }
 
+.menu_left {
+    max-width: 190px;
+    width: 100%;
+    margin: auto;
+    height: 26px;
+    line-height: 26px;
+}
+
+
+
 
 }
 
