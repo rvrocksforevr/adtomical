@@ -6,7 +6,7 @@ $(document).ready(function(e){
         counter++;
 
         var tooltip = $(".fp-left ul li:nth-child("+[key+1]+") .fp-tooltip").html();
-        console.log(tooltip);
+        //console.log(tooltip);
 
         $(".fp-left ul li:nth-child("+[key+1]+") a").append("<span class='tooltip_data'>"+tooltip+"</span>");
 
