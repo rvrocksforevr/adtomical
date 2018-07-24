@@ -938,6 +938,7 @@ body {
     top:-80px;   
     height: 80px;
     width:100%;
+    background-size:100%; 
 }
 
 @media(max-width:767px)
