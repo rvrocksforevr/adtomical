@@ -626,14 +626,18 @@ body {
     color: #000000;
     display: block;
     text-decoration: none;
-    transition: ease-in 0.4s;
+    font-weight:400 ;
+    transition: font-weight ease-out 0.3s;
     
+
+   
 }
 
 
 .fp-left li a.active span.tooltip_data
 {
-    font-family: ubuntubold;
+    font-weight:600 ;
+    transition: font-weight ease-out 0.3s;
 }
 .fp-left li .fp-tooltip.left
 {
