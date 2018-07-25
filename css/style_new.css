@@ -955,12 +955,12 @@ body {
 	{
 		max-width: 100%;
 		margin-top:0px;
-		min-height: 100vh;
+		min-height: calc(100vh - 80px);
 		background: none;
 	}
 	.main_container, .what_section, .how_section, .initiate_section
 	{
-		height:100vh !important;
+		height:calc(100vh - 50px) !important;
 		margin-top:0px !important;
 		border:0px;
 		border-bottom: 0px;
@@ -969,5 +969,6 @@ body {
 	{
 		border-bottom: 0px;
 	}
+
 
 }
