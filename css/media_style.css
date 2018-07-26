@@ -87,13 +87,13 @@
 .title_main {
     font-size: 4vh;
     padding-left: 15px;
-    padding-top: 0px;
+    padding-top: 25px;
     max-width: 60vw;
     font-family: 'ubunturegular';
 }
 
 .what_description, .initiate_section .initiate_description {
-    font-size: 2.2vh;
+    font-size: 2.1vh;
     line-height: 3vh;
     max-width: 86%;
     padding-left: 15px;
@@ -121,7 +121,7 @@
 .how_section .pull_right {
     float: left;
     margin-left: 0vw;
-    margin-top: 0vh;
+    margin-top: 2vh;
     margin-right:auto;
     padding-left:15px;
 }
@@ -341,7 +341,7 @@
 
 .how_section .how_container .what_description {
     max-width: 80%;
-    font-size: 2.4vh;
+    font-size: 2.1vh;
     line-height: 3vh;
 }
 
@@ -355,7 +355,7 @@
 }
 .how_section .pull_right ul li
 {
-	font-size:2.5vh;
+	font-size:2.1vh;
 	line-height: 3.5vh;
 }
 
